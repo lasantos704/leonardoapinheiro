@@ -1,59 +1,84 @@
-# Leonardoapinheiro
+# Portfólio Pessoal - Leonardo A. Pinheiro
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-## Development server
+## 🎯 Sobre o Projeto
 
-To start a local development server, run:
+Bem-vindo ao repositório do meu portfólio pessoal! Mais do que apenas um site, este projeto é uma demonstração prática das minhas habilidades em desenvolvimento front-end com **Angular**. Ele foi construído do zero para servir como um hub central, onde apresento minha trajetória profissional, minhas competências técnicas e os projetos dos quais me orgulho.
+
+O objetivo é aplicar as melhores práticas de desenvolvimento, desde a arquitetura do código até a experiência do usuário final, criando uma aplicação moderna, responsiva e performática.
+
+**➡️ Visite a versão online:** **[[https://leonardoapinheiro.netlify.app/](https://leonardoapinheiro.netlify.app/)]**
+
+---
+
+## ✨ Funcionalidades Principais
+
+* **Página "Sobre Mim"**: Uma seção dedicada para contar um pouco sobre minha jornada, paixões e o que me motiva na área de tecnologia.
+* **Experiência Profissional**: Uma linha do tempo interativa ou uma lista detalhada das minhas experiências de trabalho, destacando responsabilidades e conquistas em cada função.
+* **Portfólio de Projetos**: Uma galeria com meus principais projetos. Cada projeto "acoplado" possui uma descrição, as tecnologias utilizadas e links para o código-fonte no GitHub e/ou para a aplicação online.
+* **Habilidades (Tech Stack)**: Seção visual para destacar as tecnologias e ferramentas que eu domino.
+* **Design Totalmente Responsivo**: Experiência de usuário otimizada para desktops, tablets e smartphones.
+
+---
+
+## 🚀 Tecnologias e Ferramentas Utilizadas
+
+Este projeto foi construído utilizando o ecossistema Angular e outras ferramentas modernas de desenvolvimento:
+
+* **Framework Principal**: [Angular](https://angular.io/) (v19+)
+* **Linguagem**: [TypeScript](https://www.typescriptlang.org/)
+* **Estilização**: [SCSS](https://sass-lang.com/) para uma arquitetura CSS modular e escalável.
+* **Reatividade**: [RxJS](https://rxjs.dev/) para gerenciamento de eventos e programação assíncrona.
+* **Roteamento**: `Angular Router` para navegação SPA (Single Page Application).
+* **Testes (Opcional, mas impressiona!)**: [Jest](https.jestjs.io) para testes unitários e [Cypress](https://www.cypress.io/) para testes end-to-end.
+* **Deploy**: Automatizado via [GitHub Actions](https://github.com/features/actions) para a [Netlify](https://www.netlify.com/).
+
+---
+
+## 📂 Arquitetura do Projeto
+
+A estrutura de pastas foi organizada de forma escalável e modular, seguindo as melhores práticas da comunidade Angular, separando as responsabilidades em:
+
+* **`core`**: Contém serviços singletons, interceptors, guards e componentes essenciais (Navbar, Footer).
+* **`features`**: Cada seção principal do site (Portfólio, Experiência) é tratada como um módulo independente, favorecendo a organização e o *Lazy Loading*.
+* **`shared`**: Módulo com componentes, pipes e diretivas reutilizáveis por toda a aplicação (ex: botões, cards, modais).
+
+---
+
+## ▶️ Como Executar o Projeto Localmente
+
+Siga os passos abaixo para rodar o projeto na sua máquina.
 
 ```bash
+# 1. Clone o repositório
+git clone [https://github.com/lasantos704/leonardoapinheiro.git](https://github.com/lasantos704/leonardoapinheiro.git)
+
+# 2. Navegue até o diretório do projeto
+cd leonardoapinheiro
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
 ng serve
+
+# 5. Abra seu navegador e acesse `http://localhost:4200/`
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 📫 Contato
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Vamos nos conectar!
 
-```bash
-ng generate component component-name
-```
+* **LinkedIn**: [https://www.linkedin.com/in/leonardo-anderson-pinheiro/](https://www.linkedin.com/in/leonardo-anderson-pinheiro/)
+* **E-mail**: [lasantos704@gmain.com](mailto:lasantos704@gmain.com)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 📝 Licença
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
