@@ -1,0 +1,19 @@
+{
+  "name": "Leonardo A. Pinheiro",
+  "short_name": "Leo",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/images/icons/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/icons/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

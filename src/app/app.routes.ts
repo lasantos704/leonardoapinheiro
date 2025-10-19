@@ -6,8 +6,8 @@ export const routes: Routes = [
     pathMatch: 'full',
     loadComponent: () =>
       import(
-        './features/portfolio/pages/portfolio-page/portfolio-page.component'
-      ).then((m) => m.PortfolioPageComponent),
+        './features/portfolio/portfolio.component'
+      ).then((m) => m.PortfolioComponent),
   },
   {
     path: '**',

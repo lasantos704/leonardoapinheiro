@@ -1,0 +1,46 @@
+{
+  "portfolio": {
+
+    "role": "Software Developer",
+    "name": "Leonardo A. Pinheiro",
+    "location": "São Paulo, Brazil",
+    "aboutMe": [
+      { "text": "A passionate Software Developer dedicated to creating comprehensive and intelligent solutions, combining a solid foundation in Front-End with a growing focus on Back-End and Data Science." },
+      { "text": "🔹 FRONT-END: Extensive experience with Angular, TypeScript, RxJS, and NgRx in building responsive, scalable, and user-centric Single Page Applications (SPAs)." },
+      { "text": "🔹 BACK-END (Current Focus): Advancing my skills in Java 17+, Spring Boot, JPA/Hibernate, and RESTful API architecture to build robust microservices and applications." },
+      { "text": "🔹 DATA SCIENCE: Finalizing a post-graduate degree in the field, acquiring knowledge in data analysis, SQL, and Machine Learning fundamentals to extract insights and add business value to applications." },
+      { "text": "🎯 GOAL: Focused on my evolution into a Full Stack Developer, integrating my solid Front-End experience with new skills in Back-End (Java) and Data Science to design and build end-to-end solutions that are both efficient and data-driven." }
+    ],
+    "experiences": [
+      {
+        "company": "rese",
+        "period": "teste",
+        "role": "teste",
+        "description": "teste",
+        "skills": ["Angular", "TypeScript", "SCSS", "RxJS", "Git"]
+      }
+    ],
+    "educations": [{
+      "schoolName": "teste",
+      "period": "teste",
+      "degree": "Teste",
+      "degreeLevel": "treste",
+      "description": "teste"
+    }],
+    "languages": [
+      {
+        "name": "Portuguese",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate"
+      }
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/leonardo-anderson-pinheiro/",
+      "github": "https://github.com/lasantos704",
+      "email": "lasantos704@gmail.com"
+    }
+  }
+}

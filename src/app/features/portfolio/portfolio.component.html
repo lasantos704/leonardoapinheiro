@@ -1,0 +1,51 @@
+<!-- @if (loading()) {
+<div class="loading-spinner">
+  <mat-spinner></mat-spinner>
+</div>
+} @else {
+<main class="portfolio-container">
+  @if (info(); as userInfo) {
+  <app-portfolio-card [title]="userInfo.name">
+    <h2>{{ userInfo.role }}</h2>
+    <p>{{ userInfo.location }}</p>
+    @for (paragraph of userInfo.aboutMe; track paragraph.text) {
+    <p>{{ paragraph.text }}</p>
+    }
+  </app-portfolio-card>
+  }
+
+  <section>
+    <h2>Experiências</h2>
+    @for (exp of experiences(); track exp.company) {
+    <app-portfolio-card
+      [title]="exp.role"
+      [hasFooter]="true"
+      [hasBadge]="true"
+      [skills]="exp.skills"
+    >
+      <h3>{{ exp.company }}</h3>
+      <p class="period">{{ exp.period }}</p>
+      <p>{{ exp.description }}</p>
+      <mat-chip-set aria-label="Skills">
+        @for (skill of exp.skills; track skill) {
+        <mat-chip>{{ skill }}</mat-chip>
+        }
+      </mat-chip-set>
+    </app-portfolio-card>
+    }
+  </section>
+
+  <section>
+    <h2>Formação</h2>
+    @for (edu of educations(); track edu.schoolName) {
+    <app-portfolio-card [title]="edu.degree">
+      <h3>{{ edu.schoolName }}</h3>
+      <p class="period">{{ edu.period }}</p>
+      <p>{{ edu.degreeLevel }}</p>
+      <p>{{ edu.description }}</p>
+    </app-portfolio-card>
+    }
+  </section>
+</main>
+
+} -->

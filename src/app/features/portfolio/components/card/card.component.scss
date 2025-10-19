@@ -1,0 +1,13 @@
+.portfolio-card {
+  // width: 100%;
+  width: 700px;
+  margin: 50px;
+  background-color: #fff;
+
+  &__title {
+    font-weight: 500;
+  }
+  &__footer {
+    padding: 16px;
+  }
+}

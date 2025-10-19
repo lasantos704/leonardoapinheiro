@@ -6,6 +6,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatBadgeModule } from '@angular/material/badge';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 export const MATERIAL_IMPORTS = [
   MatButtonModule,
@@ -16,4 +19,7 @@ export const MATERIAL_IMPORTS = [
   MatInputModule,
   MatSidenavModule,
   MatListModule,
+  MatChipsModule,
+  MatBadgeModule,
+  MatProgressSpinnerModule
 ];
