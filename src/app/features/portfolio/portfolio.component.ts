@@ -1,18 +1,15 @@
 import {
   Component,
   inject,
-  OnChanges,
   OnInit,
-  SimpleChanges,
 } from '@angular/core';
 import { SHARED_IMPORTS } from '../../shared';
-import { CardComponent } from './components/card/card.component';
 import { DataService } from './services/data.service';
 
 @Component({
   standalone: true,
   selector: 'app-portfolio',
-  imports: [...SHARED_IMPORTS, CardComponent],
+  imports: [...SHARED_IMPORTS],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss',
 })

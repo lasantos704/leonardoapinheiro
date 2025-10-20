@@ -1,0 +1,54 @@
+@use "../../shared/sass/mixins";
+
+.footer {
+  @include mixins.section-divider();
+  opacity: 1;
+
+  .container {
+    @include mixins.container();
+  }
+
+  .logo {
+    display: flex;
+    gap: 0.7rem;
+
+    &__img {
+      height: 100%;
+      width: 3.5%;
+    }
+
+    &__text {
+      font-size: 1.5rem;
+      line-height: 1.6;
+    }
+  }
+
+  .text-love-box {
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+
+    &__br {
+      font-size: 1.3rem;
+      line-height: 1;
+    }
+  }
+
+  .icons {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    a {
+      -webkit-tap-highlight-color: transparent;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .logo-icon {
+    display: flex;
+    justify-items: center;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+  }
+}

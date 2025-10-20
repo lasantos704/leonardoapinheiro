@@ -1,0 +1,15 @@
+/**
+ * Mixin para centralizar conteúdo em um container com largura máxima.
+ *
+ * @param $max-width - A largura máxima do container.
+ * @param $horizontal-padding - O preenchimento horizontal para telas menores.
+ */
+@mixin container($max-width: 75rem) {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@mixin section-divider() {
+  padding: 3rem 0;
+}

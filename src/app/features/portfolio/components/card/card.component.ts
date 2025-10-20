@@ -3,6 +3,7 @@ import { SHARED_IMPORTS } from '../../../../shared';
 
 @Component({
   selector: 'app-portfolio-card',
+  standalone: true,
   imports: [...SHARED_IMPORTS],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
